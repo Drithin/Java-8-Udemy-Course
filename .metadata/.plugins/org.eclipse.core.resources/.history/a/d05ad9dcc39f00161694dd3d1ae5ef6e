@@ -1,0 +1,14 @@
+package dataTypes;
+
+public class lbsTokiloChallenge {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double numberOfPounds;
+		
+		double numberOfKilograms;
+
+	}
+
+}

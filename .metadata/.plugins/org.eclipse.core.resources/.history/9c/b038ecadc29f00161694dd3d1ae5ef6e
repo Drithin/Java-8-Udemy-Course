@@ -1,0 +1,13 @@
+package dataTypes;
+
+public class floatAndDouble {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int myValue = 5;
+		float myFloat = (float)5.4;
+		double myDouble = 5d;
+
+	}
+
+}

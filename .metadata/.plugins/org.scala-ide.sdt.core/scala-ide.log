@@ -1,0 +1,13 @@
+2016-10-31 15:21:06,049 ERROR [Worker-4] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-10-31 15:21:06,052 ERROR [Worker-4] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-10-31 15:21:06,052 ERROR [Worker-4] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-10-31 15:33:04,328 ERROR [Worker-8] - System.err - Oct 31, 2016 3:33:04 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected: "[version: 0][name: JSESSIONID][value: FFDB0A6DC6F48AE907CCF688133968DA][domain: subclipse.tigris.org][path: /servlets][expiry: null]". Illegal path attribute "/servlets". Path of origin: "/update_1.4.x/p2.index"
+2016-10-31 15:33:04,386 ERROR [Worker-11] - System.err - Oct 31, 2016 3:33:04 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected: "[version: 0][name: JSESSIONID][value: FCB8760B208E3EA6A2182F551A5FD800][domain: subclipse.tigris.org][path: /servlets][expiry: null]". Illegal path attribute "/servlets". Path of origin: "/update_1.4.x/content.jar"
+2016-10-31 15:33:04,436 ERROR [Worker-12] - System.err - Oct 31, 2016 3:33:04 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected: "[version: 0][name: JSESSIONID][value: BCDB7664E93FB4D64A44B51ADE690263][domain: subclipse.tigris.org][path: /servlets][expiry: null]". Illegal path attribute "/servlets". Path of origin: "/update_1.4.x/content.xml"
+2016-10-31 15:58:54,301 ERROR [ModalContext] - System.err - Oct 31, 2016 3:58:54 PM org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: I/O exception (java.net.SocketException) caught when processing request: Socket closed
+2016-10-31 15:58:54,309 ERROR [ModalContext] - System.err - Oct 31, 2016 3:58:54 PM org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: Retrying request
