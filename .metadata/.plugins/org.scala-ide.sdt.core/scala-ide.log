@@ -11,3 +11,13 @@ WARNING: Cookie rejected: "[version: 0][name: JSESSIONID][value: BCDB7664E93FB4D
 INFO: I/O exception (java.net.SocketException) caught when processing request: Socket closed
 2016-10-31 15:58:54,309 ERROR [ModalContext] - System.err - Oct 31, 2016 3:58:54 PM org.apache.http.impl.client.DefaultRequestDirector tryExecute
 INFO: Retrying request
+2016-11-01 06:18:31,654 ERROR [Worker-1] - System.err - Nov 01, 2016 6:18:31 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected: "[version: 0][name: JSESSIONID][value: 234A7DDDD45710326BC4CC3AD3E5D3B1][domain: subclipse.tigris.org][path: /servlets][expiry: null]". Illegal path attribute "/servlets". Path of origin: "/update_1.4.x/p2.index"
+2016-11-01 06:18:31,731 ERROR [Worker-0] - System.err - Nov 01, 2016 6:18:31 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected: "[version: 0][name: JSESSIONID][value: FE7D55635AF2DF21720C794951028775][domain: subclipse.tigris.org][path: /servlets][expiry: null]". Illegal path attribute "/servlets". Path of origin: "/update_1.4.x/content.jar"
+2016-11-01 06:18:31,795 ERROR [Worker-5] - System.err - Nov 01, 2016 6:18:31 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected: "[version: 0][name: JSESSIONID][value: 1773B288B0C4BF247E1F778D37F2F703][domain: subclipse.tigris.org][path: /servlets][expiry: null]". Illegal path attribute "/servlets". Path of origin: "/update_1.4.x/content.xml"
+2016-11-01 06:42:19,078 ERROR [ModalContext] - System.err - Nov 01, 2016 6:42:19 AM org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: I/O exception (java.net.SocketException) caught when processing request: Socket closed
+2016-11-01 06:42:19,087 ERROR [ModalContext] - System.err - Nov 01, 2016 6:42:19 AM org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: Retrying request
