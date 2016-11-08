@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;com.Java8UdemyCourse.Vars&apos; to &apos;com.Java8UdemyCourse.Section4&apos;&#x0A;- Original element: &apos;com.Java8UdemyCourse.Vars&apos;&#x0A;- Renamed element: &apos;com.Java8UdemyCourse.Vars&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;com.Java8UdemyCourse.Vars&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=com.Java8UdemyCourse.Vars" name="com.Java8UdemyCourse.Section4" references="true" stamp="1478566906476" version="1.0"/>
+</session>

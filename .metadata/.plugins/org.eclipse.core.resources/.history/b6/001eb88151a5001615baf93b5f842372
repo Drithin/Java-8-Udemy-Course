@@ -1,0 +1,18 @@
+package methodsAndMoreMethods;
+
+public class methods {
+	
+	String playerName;
+	int scoreTablePosition;
+	
+	
+	public static void displayHighScorePosition(){
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

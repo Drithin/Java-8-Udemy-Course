@@ -1,0 +1,22 @@
+package methodsAndMoreMethods;
+
+public class methodOverLoadingChallenge {
+	
+	public static int calcFeetAndInchesToCentimeters(int feet, int inches){
+		
+		if(feet >= 0 && inches <= 12){
+			double centimeter;
+			
+			feet = 12 * inches;
+			
+			centimeter = 0.3937 * inches;
+		}
+		return -1;
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

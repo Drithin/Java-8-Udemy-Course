@@ -1,0 +1,18 @@
+package methodsAndMoreMethods;
+
+public class methodOverLoadingChallenge {
+	
+	public static int calcFeetAndInchesToCentimeters(int feet, int inches){
+		
+		if(feet >= 0 && inches <= 12){
+			feet = 12 * inches;
+		}
+		return -1;
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
