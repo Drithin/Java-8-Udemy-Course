@@ -1,0 +1,21 @@
+package com.Java8UdemyCourse.forLoop;
+
+public class forLoopExample {
+	
+	public static double calcInterest(double amount, double interest){
+		return (amount * (interest/100));
+		
+	}
+
+	public static void main(String[] args) {
+		
+		for (int interest = 1; interest < 13; interest++){
+			
+			System.out.println(" Given Amount at "+ interest + "% is " + calcInterest(100000.00, 5.00));
+
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.Java8UdemyCourse.forLoop;
+
+public class forLoopExample {
+	
+	public double calcInterest(double amount, double interest){
+		return (amount * (interest/100));
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

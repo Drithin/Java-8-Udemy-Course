@@ -1,0 +1,20 @@
+package com.Java8UdemyCourse.whileDoWhile;
+
+public class challenge {
+	
+	public static void isEvenNumber( int n){
+		
+		while(n>=2){
+			if(n%2==0){
+				System.out.println(n + " is an even number");
+			} else {
+				System.out.println(n + " is NOT an even number");
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}
