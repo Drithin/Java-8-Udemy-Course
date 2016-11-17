@@ -2,37 +2,42 @@ package com.Java8UdemyCourse.whileDoWhile;
 
 public class challenge {
 	
-	public static void isEvenNumber( int n){
+	public static boolean isEvenNumber( int n){
 		
-		int l = 0;
-		int m = 0;
+		
 		
 		while(n>=2){
 			if(n%2==0){
 				System.out.println(n + " is an even number");
-                l++;
-				break;
+                
+                return true;
 				
 				}
 			
 			if(n%2!=0) {
 				System.out.println(n + " is NOT an even number");
-				m++;
-				break;
+				return false;
 			}
 			
 		}
-		System.out.println(" Total number of even Numbers are "+ l);
-		System.out.println(" Total number of odd Numbers are "+ m);
+		return false;
 		
    }
 	
 	public static void main(String[] args) {
-		int [] m = {2,3,4,6,8,10,12,13,14,16,18,20};
+		int l = 0;
+		int m = 0;
+		int [] k = {2,3,4,6,8,10,12,13,14,16,18,20};
 		
-		for(int i : m){
-			isEvenNumber(i);
+		for(int i : k){
+			if(isEvenNumber(i)){
+				l++;
+			} else {
+				m++;
+			}
 		}
+		System.out.println(" Total number of even numbers are " + l);
+		System.out.println(" Total number of odd numbers are " + m);
 		
 	}
 
