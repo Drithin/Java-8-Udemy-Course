@@ -1,0 +1,14 @@
+package com.Java8UdemyCourse.bankingChallenge;
+
+public class Main {
+
+	public static void main(String[] args) {
+		banking bob = new banking(12345, "Bob Marley", "bobm@gmail.com", 1234567890);
+		
+		b.deposit(1000);
+		
+		b.withdrawl(1700);
+
+	}
+
+}

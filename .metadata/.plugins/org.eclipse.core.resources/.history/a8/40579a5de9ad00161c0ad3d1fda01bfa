@@ -1,0 +1,21 @@
+package com.Java8UdemyCourse.Inheritance;
+
+public class Dog extends Animal {
+	
+	private int eyes;
+	private int legs;
+	private int tail;
+	private int teeth;
+	private String coat;
+	
+	/*
+	 * When a class inherits characters from parent,
+	 * its constructor is declared same as parent class
+	 */
+
+	public Dog(String name, int brain, int body, int size, int weight) {
+		super(name, brain, body, size, weight);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.Java8UdemyCourse.bankingChallenge;
+
+public class Main {
+
+	public static void main(String[] args) {
+		banking b = new banking();
+		
+		b.deposit(1000);
+		
+		b.withdrawl(1000);
+
+	}
+
+}

@@ -1,0 +1,60 @@
+package com.Java8UdemyCourse.bankingChallenge;
+
+public class banking {
+
+	int accNumber;
+	static double balance = 0;
+	String custName;
+	String email;
+	int phnNumber;
+	
+	public int getAccNumber() {
+		return accNumber;
+	}
+	public void setAccNumber(int accNumber) {
+		this.accNumber = accNumber;
+	}
+	public double getBalance() {
+		return balance;
+	}
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+	public String getCustName() {
+		return custName;
+	}
+	public void setCustName(String custName) {
+		this.custName = custName;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public int getPhnNumber() {
+		return phnNumber;
+	}
+	public void setPhnNumber(int phnNumber) {
+		this.phnNumber = phnNumber;
+	}
+	
+	public static double deposit(int amount){
+		balance += amount;
+		System.out.println(" Total Balance after deposition is = " + balance);
+		return balance;
+	}
+	
+	public static double withdrawl(int amount){
+		balance -= amount;
+		
+		if(balance <= 0 ){
+			System.out.println(" Insufficient Balance ");
+		} 
+		
+		System.out.println(" Total Balance after withdrawl is = " + balance);
+		return balance;
+	}
+	
+	
+}
