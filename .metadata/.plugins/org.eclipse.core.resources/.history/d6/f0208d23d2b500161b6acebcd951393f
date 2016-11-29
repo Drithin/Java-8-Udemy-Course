@@ -1,0 +1,11 @@
+package com.Java8UdemyCourse.Composition;
+
+public class Dimensions {
+	
+	private int width;
+	private int height;
+	private int depth;
+	
+	
+
+}
