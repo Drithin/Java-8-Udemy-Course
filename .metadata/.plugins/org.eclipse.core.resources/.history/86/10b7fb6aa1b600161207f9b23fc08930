@@ -1,0 +1,53 @@
+package com.Java8UdemyCourse.EncapsulationChallenge;
+
+public class Printer {
+	private int currenttonerLevel;
+	private int addToToner = 20;
+	private int pagesPrinted;
+	private String printerType;
+	
+	
+	
+	
+    /**
+	 * @param currenttonerLevel
+	 * @param addToToner
+	 * @param pagesPrinted
+	 * @param printerType
+	 */
+	public Printer(int currenttonerLevel, int addToToner, int pagesPrinted, String printerType) {
+		
+		if(currenttonerLevel >= 0 && currenttonerLevel <= 100){
+		this.currenttonerLevel = currenttonerLevel;
+		} else {
+			System.out.println(" Not a valid toner setting");
+		}
+		this.addToToner = addToToner;
+		this.pagesPrinted = pagesPrinted;
+		this.printerType = printerType;
+	}
+
+
+	public void askToPrint(int pagesAsked){
+		
+		pagesPrinted = pagesAsked;
+		
+		System.out.println(pagesPrinted + " pages has been printed");
+		
+		}
+
+    public void fillToner(){
+    	if(pagesPrinted <= 800){
+    		currenttonerLevel -= 80;
+    		System.out.println("Current TOner Level is "+ currenttonerLevel);
+    	}
+    	
+    	if(currenttonerLevel <= 20){
+    		currenttonerLevel += addToToner;
+    		System.out.println(" New toner level is "+ currenttonerLevel);
+    	}
+    }
+	
+
+
+}

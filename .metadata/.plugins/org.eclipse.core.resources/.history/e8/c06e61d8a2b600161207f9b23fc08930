@@ -1,0 +1,15 @@
+package com.Java8UdemyCourse.EncapsulationChallenge;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Printer P = new Printer(100, 20, 100, "Duplex");
+
+		P.askToPrint(900);
+		
+		P.fillToner();
+		
+		
+	}
+
+}

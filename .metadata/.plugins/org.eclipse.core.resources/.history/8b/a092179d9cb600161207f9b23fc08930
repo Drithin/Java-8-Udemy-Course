@@ -1,0 +1,84 @@
+package com.Java8UdemyCourse.EncapsulationChallenge;
+
+public class Printer {
+	private int currenttonerLevel = 80;
+	private int addToToner = 20;
+	private int pagesPrinted;
+	private String printerType;
+	
+	
+	
+	
+    /**
+	 * @param currenttonerLevel
+	 * @param addToToner
+	 * @param pagesPrinted
+	 * @param printerType
+	 */
+	public Printer(int currenttonerLevel, int addToToner, int pagesPrinted, String printerType) {
+		
+		if(currenttonerLevel <= 100){
+		this.currenttonerLevel = currenttonerLevel;
+		} else {
+			System.out.println(" Not a valid toner setting");
+		}
+		this.addToToner = addToToner;
+		this.pagesPrinted = pagesPrinted;
+		this.printerType = printerType;
+	}
+
+
+	public void askToPrint(int pagesAsked){
+		
+		pagesPrinted = pagesAsked;
+		
+		System.out.println(pagesAsked+ " pages has been printed");
+			
+		
+	}
+
+
+	public int getCurrenttonerLevel() {
+		return currenttonerLevel;
+	}
+
+
+	public void fillToner(){
+		
+		
+		if(pagesPrinted >= 200 && pagesPrinted<300){
+			currenttonerLevel -= 20; 
+		}
+		
+		if(pagesPrinted >= 300 && pagesPrinted<600){
+			currenttonerLevel -= 40; 
+			
+		System.out.println(" Current toner level is : "+ currenttonerLevel);
+		}
+		
+		if(pagesPrinted >= 600 && pagesPrinted<800){
+			currenttonerLevel -= 60; 
+			
+		System.out.println(" Current toner level is : "+ currenttonerLevel);
+		}
+		
+		if(pagesPrinted >= 800 && pagesPrinted<100){
+			currenttonerLevel -= 80; 
+			
+		System.out.println(" Current toner level is : "+ currenttonerLevel);
+		}
+		
+		
+		if(currenttonerLevel <= 20){
+			currenttonerLevel += addToToner;
+			
+			
+			System.out.println("Current Toner level is "+currenttonerLevel);
+		}
+		
+//		if(currenttonerLevel >= 100){
+//			System.out.println(" Max Level Reached");
+//		}
+	}
+
+}

@@ -1,0 +1,43 @@
+package com.Java8UdemyCourse.EncapsulationChallenge;
+
+public class Printer {
+	public int tonerLevel;
+	public int pagesPrinted;
+	public String printerType;
+	
+	
+	
+	/**
+	 * @param tonerLevel
+	 * @param pagesPrinter
+	 * @param printerType
+	 */
+	public Printer(int tonerLevel, int pagesPrinter, String printerType) {
+		
+		this.tonerLevel = tonerLevel;
+		this.pagesPrinted = pagesPrinted;
+		this.printerType = printerType;
+	}
+	
+
+    private void fillToner(){
+		
+		
+		int currentTonerLevel = 60;
+		
+		int addToToner = 20;
+		
+		if(pagesPrinted >= 200 && pagesPrinted<=300){
+			currentTonerLevel -= 20; 
+		}
+		
+		if(currentTonerLevel <= 20){
+			currentTonerLevel += addToToner;
+		}
+		
+		if(currentTonerLevel >= 100){
+			System.out.println(" Max Level Reached");
+		}
+	}
+
+}
