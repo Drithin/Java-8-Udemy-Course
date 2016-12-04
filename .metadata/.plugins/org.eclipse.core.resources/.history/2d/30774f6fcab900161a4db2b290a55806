@@ -1,0 +1,24 @@
+package com.Java8UdemyCourse.Polymorphism;
+
+
+
+class Movie{
+	private String name;
+	
+	public Movie(String name){
+		this.name = name;
+	}
+	
+	public String plot(){
+		return "No Plot Here";
+		
+	}
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	}
+
+}
