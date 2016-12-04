@@ -1,0 +1,34 @@
+package com.Java8UdemyCourse.Polymorphism;
+
+
+
+class Movie{
+	private String name;
+	
+	public Movie(String name){
+		this.name = name;
+	}
+	
+	public String plot(){
+		return "No Plot Here";
+	}
+	
+
+class Jaws extends Movie{
+	public Jaws(){
+		super("Jaws");
+	}
+	
+	public String plot(){
+		return "A shark that eats lot of people";
+	}
+}
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	}
+
+}
