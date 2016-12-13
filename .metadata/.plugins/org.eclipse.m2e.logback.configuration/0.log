@@ -1345,3 +1345,5 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2016-11-01 15:22:49,334 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/DrithnChakrav/Documents/workspace4/testArtifact/src/main/resources
 2016-11-01 15:22:49,339 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-11-01 15:22:49,340 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/DrithnChakrav/Documents/workspace4/testArtifact/src/test/resources
+2016-12-12 17:53:52,714 [Thread-9] ERROR org.eclipse.jgit.util.FS - 2016-12-12 17:53:51.703 xcodebuild[4068:206873] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+

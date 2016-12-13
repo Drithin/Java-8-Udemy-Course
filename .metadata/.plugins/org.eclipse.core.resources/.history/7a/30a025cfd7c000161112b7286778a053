@@ -1,0 +1,9 @@
+package com.Java8UdemyCourse.Section8.PolymorphismChallenge;
+
+public class Cars {
+
+	private boolean engine;
+	private int cylinders;
+	private String name;
+	private int wheels;
+}

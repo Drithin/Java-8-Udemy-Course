@@ -1,0 +1,33 @@
+package com.Java8UdemyCourse.Section8.PolymorphismChallenge;
+
+
+	
+	class Mitsubishi extends Cars {
+		
+		public Mitsubishi(int cylinders, String name){
+			super(cylinders, name);
+		}
+
+		@Override
+		public String startEngine() {
+			// TODO Auto-generated method stub
+			return " Mitsibushi -> Start Engine ";
+		}
+
+		@Override
+		public String accelerate() {
+			// TODO Auto-generated method stub
+			return "Mitsibushi -> Accelerate";
+		}
+
+		@Override
+		public String brake() {
+			// TODO Auto-generated method stub
+			return " Mitsibushi -> Break ";
+		}
+		
+		
+		
+		}
+
+

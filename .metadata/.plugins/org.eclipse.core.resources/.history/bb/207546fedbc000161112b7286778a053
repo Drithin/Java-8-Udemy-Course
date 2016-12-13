@@ -1,0 +1,33 @@
+package com.Java8UdemyCourse.Section8.PolymorphismChallenge;
+
+
+	
+	public class Ford extends Cars {
+		
+		public Ford(int cylinders, String name){
+			super(cylinders, name);
+		}
+
+		
+		public static String startEngine() {
+			// TODO Auto-generated method stub
+			return " Benz -> Start Engine ";
+		}
+
+		
+		public static String accelerate() {
+			// TODO Auto-generated method stub
+			return "Benz-> Accelerate";
+		}
+
+		
+		public static String brake() {
+			// TODO Auto-generated method stub
+			return " Benz -> Break ";
+		}
+		
+		
+		
+		}
+
+
