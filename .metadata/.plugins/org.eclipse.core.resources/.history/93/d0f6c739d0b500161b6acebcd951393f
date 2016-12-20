@@ -1,5 +1,0 @@
-package com.Java8UdemyCourse.Composition;
-
-public class Car extends Vehicle {
-
-}
