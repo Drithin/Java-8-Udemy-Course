@@ -9,6 +9,9 @@ _This Udemy course is still under progress_
 - Loops
 - Classes and Constructors
 - Inheritance
+- Composition
+- Encapsulation
+- Polymorphism
 
 ## Challenges
 - **Time Allocation** to the course
